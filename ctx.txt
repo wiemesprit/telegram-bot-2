@@ -1,0 +1,36 @@
+Context {
+  update: {
+    update_id: 329623183,
+    message: {
+      message_id: 720,   
+      from: [Object],    
+      chat: [Object],    
+      date: 1617716884,  
+      text: '/start',    
+      entities: [Array]  
+    }
+  },
+  tg: Telegram {
+    token: '1757050601:AAGGcR3JK18-Y3Ef6BKkBlkM14eaaJVfrLw',
+    response: undefined,
+    options: {
+      apiRoot: 'https://api.telegram.org',
+      apiMode: 'bot',
+      webhookReply: true,
+      agent: [Agent],
+      attachmentAgent: undefined
+    }
+  },
+  botInfo: {
+    id: 1757050601,
+    is_bot: true,
+    first_name: 'telegramtestBot',
+    username: 'espritPIMbot',
+    can_join_groups: true,
+    can_read_all_group_messages: false,
+    supports_inline_queries: false
+  },
+  state: {},
+  startPayload: ''
+}
+  ctx.deleteMessage()
